@@ -1,0 +1,15 @@
+{
+    "name": "Derori100%",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Github width 100% Chrome Extension",
+    "content_scripts": [{
+      "matches": ["https://github.com/*"],
+      "js": [
+        "main.ts"
+      ],
+      "css":[
+        "filter.css"
+      ]
+    }]
+  }

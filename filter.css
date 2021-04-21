@@ -1,0 +1,4 @@
+/* ここにあてたいCSSを書くとDOMのレンダリング前に評価される。 */
+main .container-xl {
+    max-width: 100%;
+}
