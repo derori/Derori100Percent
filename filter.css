@@ -1,7 +1,13 @@
 /* ここにあてたいCSSを書くとDOMのレンダリング前に評価される。 */
 main .container-xl {
     max-width: 100%;
+    width: 100%;
 }
 main .container-lg {
     max-width: 100%;
 }
+/* .Details .py-2 {
+    padding-top: 1px!important;
+    padding-bottom: 1px!important;
+}
+ */
