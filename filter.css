@@ -11,7 +11,7 @@ main .container-lg {
     top: -25px;
 }
 main .CommentBox-input {
-    line-height: 20;
+    height: 600px!important;
 }
 
 /* .Details .py-2 {
