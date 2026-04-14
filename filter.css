@@ -3,12 +3,34 @@ textarea {
     height: 400px!important;
 }
 
-main .react-repos-overview-margin {
-    margin-right: 0;
+/* メインコンテンツの幅制限(1012px)を解除 */
+.prc-PageLayout-Content-xWL-A {
+    max-width: none !important;
+    width: 100% !important;
 }
 
-/* 指定がガバい */
-main * {
-    max-width: 100%!important;
+/* リポジトリ詳細などの70%制限を解除 */
+#repository-details-container {
+    max-width: none !important;
 }
 
+[class*="IssueCreatePage-module__createPaneContainer"] {
+    max-width: none !important;
+    width: 100% !important;
+}
+[class*="IssueIndexPage"] {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+[class*="prc-PageLayout-PageLayoutRoot"] {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* ページ全体のレイアウトコンテナの制限を解除 */
+.container-xl,
+.container-lg {
+    max-width: none !important;
+    width: 100% !important;
+}

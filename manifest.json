@@ -1,6 +1,6 @@
 {
     "name": "Derori100%",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "manifest_version": 3,
     "description": "Github width 100% Chrome Extension",
     "content_scripts": [{
